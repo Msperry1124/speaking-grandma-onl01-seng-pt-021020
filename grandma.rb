@@ -1,8 +1,8 @@
 def speak_to_grandma(phrase)
-  if phrase == 'I LOVE YOU GRANDMA!'
-    'I LOVE YOU TOO PUMPKIN!'
-elsif phrase != phrase.upcase
-  'HUH?! SPEAK UP, SONNY!'
+  if phrase != phrase.upcase
+    'HUH?! SPEAK UP, SONNY!'
+elsif phrase == 'I LOVE YOU GRANDMA!'
+  'I LOVE YOU TOO PUMPKIN!
 else
   'NO, NOT SINCE 1928!'
 end
