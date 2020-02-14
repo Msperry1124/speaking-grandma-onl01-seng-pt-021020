@@ -1,10 +1,8 @@
 def speak_to_grandma(phrase)
-  binding.pry
   if phrase != phrase.upcase
+    binding.pry
     'HUH?! SPEAK UP, SONNY!'
 elsif phrase == 'I LOVE YOU GRANDMA!'
   'I LOVE YOU TOO PUMPKIN!
 else
-  'NO, NOT SINCE 1938!'
-end
-end
+  'NO, NOT SINCE 1938!
